@@ -1,2 +1,2 @@
 # Pineapple-Calculator
-It's just for test the operation, but can be changed to the 2-people program.
+队名：老龚最帅 成员：龚源宏，吴旭东
