@@ -1,0 +1,20 @@
+<!--pages/lenth/lenth.wxml-->
+<view class="tittle">长度换算</view>
+  <picker class="unit" bindchange="nowunit" value="{{nowunit1}}" range="{{array}}">
+    <view class="gray">
+      当前单位：{{array[nowunit1]}}
+    </view>
+  </picker>
+<view class="unit">
+<input type="number" bindinput="inputdata" placeholder="请输入数值" confirm-type="done"/>
+</view>
+<picker class="unit" bindchange="tounit" value="{{tounit1}}" range="{{array}}">
+    <view class="gray">
+      转换单位：{{array[tounit1]}}
+    </view>
+  </picker>
+  <view class="line"></view>
+  <view class="unit bar">
+  <view class="left">{{result}}</view>
+  <view class="right">{{array[tounit1]}}</view>
+  </view>

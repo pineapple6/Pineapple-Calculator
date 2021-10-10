@@ -1,0 +1,43 @@
+/* pages/lenth/lenth.wxss */
+.tittle{
+  height: 100rpx;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: larger;
+  font-weight: 700;
+}
+.unit{
+  height: 100rpx;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.gray{
+  color: rgba(5, 92, 63, 0.911);
+}
+.line{
+  width: 100%;
+  height: 5rpx;
+  background: rgba(0, 0, 0, 0.151);
+}
+
+.left{
+  width: 80%;
+  color: rgba(2, 76, 214, 0.836);
+}
+
+.bar{
+  width: 95%;
+  display: flex; /*弹性显示结构*/
+  flex-direction: row;/*横向显示*/
+  margin: auto;
+}
+
+.right{
+  width: 20%;
+  text-align: right;
+}

@@ -1,0 +1,51 @@
+/* pages/exrate/exrate.wxss */
+.tittle{
+  height: 200rpx;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(35, 65, 200);
+}
+.btnGroup {
+  width: 95%;
+  display: flex; /*弹性显示结构*/
+  flex-direction: row;/*横向显示*/
+  justify-content: space-around;
+  margin: auto;
+}
+.box{
+  width: 300rpx;
+  line-height: 300rpx;
+  border-radius: 10%;
+  text-align: center;
+  margin-bottom: 50rpx;
+  justify-content: center;
+}
+.sh1{
+  border: rgba(57, 113, 177, 0.425) solid 10rpx;
+  box-shadow: 15rpx 15rpx 15rpx rgba(57, 113, 177, 0.384);
+}
+.sh2{
+  border: rgba(66, 163, 106, 0.363) solid 10rpx;
+  box-shadow: 15rpx 15rpx 15rpx rgba(66, 163, 106, 0.384);
+}
+.sh3{
+  border: rgba(231, 73, 10, 0.384) solid 10rpx;
+  box-shadow: 15rpx 15rpx 15rpx rgba(231, 73, 10, 0.384);
+}
+.sh4{
+  border: rgba(197, 194, 12, 0.445) solid 10rpx;
+  box-shadow: 15rpx 15rpx 15rpx rgba(197, 194, 12, 0.445);
+}
+.sh5{
+  border: rgba(2, 147, 204, 0.349) solid 10rpx;
+  box-shadow: 15rpx 15rpx 15rpx rgba(2, 147, 204, 0.349);
+}
+.sh6{
+  border: rgba(204, 2, 177, 0.226) solid 10rpx;
+  box-shadow: 15rpx 15rpx 15rpx rgba(204, 2, 177, 0.226);
+}

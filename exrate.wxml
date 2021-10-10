@@ -1,0 +1,14 @@
+<!--pages/exrate/exrate.wxml-->
+<view class = "tittle">常用单位换算</view>
+<view class="btnGroup">
+<view class = "box sh1">汇率换算</view>
+<navigator class = "box sh2" url="/pages/lenth/lenth">长度换算</navigator>
+</view>
+<view class="btnGroup">
+<view class = "box sh3">时间换算</view>
+<view class = "box sh4">速度换算</view>
+</view>
+<view class="btnGroup">
+<view class = "box sh5">热量换算</view>
+<view class = "box sh6">存储单位换算</view>
+</view>

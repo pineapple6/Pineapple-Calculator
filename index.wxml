@@ -1,0 +1,43 @@
+<!-- pages/index/index.wxml -->
+<swiper class="swp" indicator-active-color="#fff" indicator-color="rgba(255,255,255,0.5)" indicator-dots autoplay interval="3000">
+    <swiper-item><image src="https://img.zcool.cn/community/016de95b82c3f5a80120577da70e3a.jpg@1280w_1l_0o_100sh.jpg" mode="scaleToFill"></image></swiper-item>
+    <swiper-item><image src="https://img.zcool.cn/community/016de95b82c3f5a80120577da70e3a.jpg@1280w_1l_0o_100sh.jpg" mode="scaleToFill"></image></swiper-item>
+</swiper>
+<view class='screen'>{{result}}</view>
+<view class='test-bg'>
+  <view class='btnGroup'>
+    <view class='item orange' bindtap="showdora">哆啦A梦</view>
+    <view class='item orange' bindtap='clickButton' id="{{C}}">归零</view>
+    <view class='item orange' bindtap='clickButton' id="{{back}}">退格</view>
+    <view class='item orange' bindtap='clickButton' id="{{div}}">÷</view>
+  </view>
+ 
+  <view class='btnGroup'>
+    <view class='item white' bindtap='clickButton' id="{{id7}}">7</view>
+    <view class='item white' bindtap='clickButton' id="{{id8}}">8</view>
+    <view class='item white' bindtap='clickButton' id="{{id9}}">9</view>
+    <view class='item orange' bindtap='clickButton' id="{{mut}}">×</view>
+  </view>
+ 
+  <view class='btnGroup'>
+    <view class='item white' bindtap='clickButton' id="{{id4}}">4</view>
+    <view class='item white' bindtap='clickButton' id="{{id5}}">5</view>
+    <view class='item white' bindtap='clickButton' id="{{id6}}">6</view>
+    <view class='item orange' bindtap='clickButton' id="{{sub}}">-</view>
+  </view>
+ 
+  <view class='btnGroup'>
+    <view class='item white' bindtap='clickButton' id="{{id1}}">1</view>
+    <view class='item white' bindtap='clickButton' id="{{id2}}">2</view>
+    <view class='item white' bindtap='clickButton' id="{{id3}}">3</view>
+    <view class='item orange' bindtap='clickButton' id="{{add}}">+</view>
+  </view>
+ 
+  <view class='btnGroup'>
+    <view class='item white' bindtap="showdora">哆啦A梦</view>
+    <view class='item white' bindtap='clickButton' id="{{id0}}">0</view>
+    <view class='item white' bindtap='clickButton' id="{{dot}}">.</view>
+    <view class='item orange' bindtap='clickButton' id="{{equ}}">=</view>
+  </view>
+ 
+</view>
